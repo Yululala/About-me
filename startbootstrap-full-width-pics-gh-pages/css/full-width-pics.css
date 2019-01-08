@@ -4,6 +4,21 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-width-pics/blob/master/LICENSE)
  */
 
+button {
+  padding: 30px;
+  background-color: white;
+  border: 1px solid gray;
+  color: gray;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+
+button:hover {
+  background-color: gray;
+  color: white;
+}
+
 
 .mainNav{
   font-family: 'Roboto Slab', serif;
@@ -11,6 +26,7 @@
 
 body {
   padding-top: 54px;
+  font-family: 'Roboto Slab', serif;
 }
 
 @media (min-width: 992px) {
